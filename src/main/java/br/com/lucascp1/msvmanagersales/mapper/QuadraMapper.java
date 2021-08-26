@@ -62,10 +62,10 @@ public class QuadraMapper {
     }
 
     public Quadra atualizaEntidadePorDTO(Quadra quadra, QuadraDTO quadraDTO){
-        quadra.setIdQuadra(quadraDTO.getIdQuadra());
         quadra.setTime(quadraDTO.getTime());
         quadra.setNome(quadraDTO.getNome());
         quadra.setCidade(quadraDTO.getCidade());
+        quadra.setCapacidade(quadraDTO.getCapacidade());
 
         return quadra;
     }

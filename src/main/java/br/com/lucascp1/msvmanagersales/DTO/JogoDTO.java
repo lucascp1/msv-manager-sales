@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDate;
+
 @Getter
 @Setter
 @AllArgsConstructor
@@ -15,4 +17,5 @@ public class JogoDTO {
     private String adversario;
     private Double placarLocal;
     private Double placarAdversario;
+    private LocalDate dataJogo;
 }

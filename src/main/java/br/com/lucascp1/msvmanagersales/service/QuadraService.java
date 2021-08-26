@@ -36,10 +36,9 @@ public class QuadraService {
         return quadraMapper.converterEntidadeParaDto(quadraRepository.save(quadra));
     }
 
+
     public String excluirQuadraPorId(Integer idQuadra){
         quadraRepository.deleteById(idQuadra);
         return "Quadra excluída com sucesso";
     }
-
-
 }

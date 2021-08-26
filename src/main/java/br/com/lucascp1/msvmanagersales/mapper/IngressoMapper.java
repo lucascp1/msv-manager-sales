@@ -1,9 +1,7 @@
 package br.com.lucascp1.msvmanagersales.mapper;
 
 import br.com.lucascp1.msvmanagersales.DTO.IngressoDTO;
-import br.com.lucascp1.msvmanagersales.DTO.JogoDTO;
 import br.com.lucascp1.msvmanagersales.model.Ingresso;
-import br.com.lucascp1.msvmanagersales.model.Jogo;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -23,15 +21,6 @@ public class IngressoMapper {
                 dto.getJogo(),
                 dto.getQuadra());
     }
-//
-//    private Integer idIngresso;
-//    private Double vendidos;
-//    private Double preco;
-//    private Double assento;
-//    private String setor;
-//    private String portaoEntrada;
-//    private Jogo jogo;
-//    private Quadra quadra;
 
     public IngressoDTO converterEntidadeParaDto(Ingresso ingresso){
         return new IngressoDTO(
@@ -84,7 +73,6 @@ public class IngressoMapper {
     }
 
     public Ingresso atualizaEntidadePorDTO(Ingresso ingresso, IngressoDTO ingressoDTO){
-        ingresso.setIdIngresso(ingressoDTO.getIdIngresso());
         ingresso.setVendidos(ingressoDTO.getVendidos());
         ingresso.setPreco(ingressoDTO.getPreco());
         ingresso.setAssento(ingressoDTO.getAssento());

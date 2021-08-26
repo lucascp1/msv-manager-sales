@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 
 @Getter
 @Setter
@@ -31,4 +32,7 @@ public class Jogo {
 
     @Column(name = "placar_adversario")
     private Double placarAdversario;
+
+    @Column(name = "data_jogo")
+    private LocalDate dataJogo;
 }

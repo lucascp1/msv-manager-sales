@@ -16,7 +16,8 @@ public class JogoMapper {
                 dto.getTimeLocal(),
                 dto.getAdversario(),
                 dto.getPlacarLocal(),
-                dto.getPlacarAdversario());
+                dto.getPlacarAdversario(),
+                dto.getDataJogo());
     }
 
     public JogoDTO converterEntidadeParaDto(Jogo jogo){
@@ -25,7 +26,8 @@ public class JogoMapper {
                 jogo.getTimeLocal(),
                 jogo.getAdversario(),
                 jogo.getPlacarLocal(),
-                jogo.getPlacarAdversario());
+                jogo.getPlacarAdversario(),
+                jogo.getDataJogo());
     }
 
     public List<Jogo> converterListaDtoParaEntidade(List<JogoDTO> listDto){
@@ -39,6 +41,7 @@ public class JogoMapper {
             jogo.setAdversario(dto.getAdversario());
             jogo.setPlacarLocal(dto.getPlacarLocal());
             jogo.setPlacarAdversario(dto.getPlacarAdversario());
+            jogo.setDataJogo(dto.getDataJogo());
             listJogo.add(jogo);
         }
         return listJogo;
@@ -55,17 +58,18 @@ public class JogoMapper {
             jogoDTO.setAdversario(jogo.getAdversario());
             jogoDTO.setPlacarLocal(jogo.getPlacarLocal());
             jogoDTO.setPlacarAdversario(jogo.getPlacarAdversario());
+            jogoDTO.setDataJogo(jogo.getDataJogo());
             listDto.add(jogoDTO);
         }
         return listDto;
     }
 
     public Jogo atualizaEntidadePorDTO(Jogo jogo, JogoDTO jogoDTO){
-        jogo.setIdJogo(jogoDTO.getIdJogo());
         jogo.setTimeLocal(jogoDTO.getTimeLocal());
         jogo.setAdversario(jogoDTO.getAdversario());
         jogo.setPlacarLocal(jogoDTO.getPlacarLocal());
         jogo.setPlacarAdversario(jogoDTO.getPlacarAdversario());
+        jogo.setDataJogo(jogoDTO.getDataJogo());
         return jogo;
     }
 }

@@ -5,29 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20dd7c35-23f6-41e9-917d-244e1f8338a4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/DTO/IngressoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/DTO/JogoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/DTO/QuadraDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/controller/IngressoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/controller/JogoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/controller/QuadraController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/mapper/IngressoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/mapper/JogoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/mapper/QuadraMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/model/Ingresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/model/Jogo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/model/Quadra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/repository/IngressoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/repository/JogoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/repository/QuadraRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/service/IngressoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/service/JogoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/service/QuadraService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/DTO/FreeAgentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/controller/FreeAgentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/mapper/FreeAgentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/model/FreeAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/repository/FreeAgentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/service/FreeAgentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagersales/DTO/JogoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagersales/DTO/JogoDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagersales/mapper/IngressoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagersales/mapper/IngressoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagersales/mapper/JogoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagersales/mapper/JogoMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagersales/mapper/QuadraMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagersales/mapper/QuadraMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagersales/model/Jogo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagersales/model/Jogo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagersales/service/QuadraService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/br/com/lucascp1/msvmanagersales/service/QuadraService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/DTO/JogoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/DTO/JogoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/mapper/IngressoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/mapper/IngressoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/mapper/JogoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/mapper/JogoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/mapper/QuadraMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/mapper/QuadraMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/model/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/model/Jogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/service/QuadraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/lucascp1/msvmanagersales/service/QuadraService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,5 +135,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

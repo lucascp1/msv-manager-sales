@@ -10,6 +10,6 @@
         <module name="msv-manager-sales.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="14" />
   </component>
 </project>
