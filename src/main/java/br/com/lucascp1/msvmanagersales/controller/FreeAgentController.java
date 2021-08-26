@@ -10,11 +10,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/freeAgent")
+@RequestMapping("/free-agent")
 public class FreeAgentController {
     
     @Autowired
     public FreeAgentService freeAgentService;
+
 
     @GetMapping
     public ResponseEntity<List<FreeAgentDTO>> listarFreeAgent(){
